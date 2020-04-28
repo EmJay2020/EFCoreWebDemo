@@ -14,6 +14,7 @@ https://github.com/LIT-W07GH/EFCoreWebDemo/blob/master/EFCoreWebDemo.Data/People
 You can then create your classes that match the tables you want in your database, and then add them as a `DbSet<>` to your Context class:
 
 https://github.com/LIT-W07GH/EFCoreWebDemo/blob/master/EFCoreWebDemo.Data/Person.cs
+
 https://github.com/LIT-W07GH/EFCoreWebDemo/blob/master/EFCoreWebDemo.Data/PeopleContext.cs#L19
 
 Then, you'll need to create a class that implements the interface `IDesignTimeDbContextFactory<NameOfYourDbContext>`. See mine here:
